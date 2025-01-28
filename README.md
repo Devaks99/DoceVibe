@@ -25,3 +25,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 A estrutura do projeto está organizada da seguinte forma:
 
 DoceVibe/ │ ├── index.html # Página principal do site ├── style.css # Arquivo de estilos CSS ├── script.js # Arquivo de scripts JavaScript (se houver) │ ├── img/ # Imagens do projeto │ ├── logo_docevibe.ico │ ├── bolochocolate.jpg │ ├── bolo-de-chocolate-com-morangos.jpg │ ├── torta-de-limao.jpg │ └── ... │ └── README.md # Este arquivo
+
+
+## Instalação
+
+1. **Clone o repositório** para a sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/docevibe.git
+
