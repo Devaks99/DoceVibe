@@ -36,5 +36,5 @@ DoceVibe/ │ ├── index.html # Página principal do site ├── style.c
 1. **Clone o repositório** para a sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/docevibe.git
+   git clone https://github.com/Devaks99/DoceVibe.git
 
