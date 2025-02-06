@@ -1,14 +1,17 @@
 # DoceVibe
 
 **DoceVibe** é um site dedicado a oferecer uma variedade deliciosa de **doces finos e personalizados** para adoçar qualquer momento especial. Com bolos, tortas, cupcakes e sobremesas variadas, o DoceVibe traz a combinação perfeita de sabor e design.
-![docevibe1](https://github.com/user-attachments/assets/610e2641-76d3-448e-afe5-fa9614cc2fc2)
-![docevibe2](https://github.com/user-attachments/assets/79c32e58-f9b9-4cb9-9798-e956db0a398f)
+
+![tela 1 docevibe](https://github.com/user-attachments/assets/35f51f24-6947-4633-a0fd-3ab13a854d5f)
+![tela 2 docevibe](https://github.com/user-attachments/assets/ff74db44-2f1b-420c-b468-fe9d1fc4cdbf)
+![tela 3 docevibe](https://github.com/user-attachments/assets/b5e5dc49-2930-432b-87e5-707dc3e537ee)
+
 
 
 
 ## Visão Geral
 
-O **DoceVibe** oferece uma interface simples e elegante para que os usuários possam navegar facilmente entre as opções de doces disponíveis. O layout responsivo se adapta a dispositivos móveis e desktop, proporcionando uma experiência de compra acessível e agradável. A página conta com uma seção de produtos, onde você pode visualizar detalhes sobre os itens e preços, além de informações de contato no rodapé.
+O **DoceVibe** oferece uma interface simples e elegante para que os usuários possam navegar facilmente entre as opções de doces disponíveis. O layout responsivo se adapta a dispositivos móveis e desktop, proporcionando uma experiência de compra acessível e agradável. A página conta com uma seção de produtos, onde você pode visualizar detalhes sobre os itens, descrição e preços, além de informações de contato no rodapé e um botão Scroll-top para voltar ao início da página.
 
 ## Tecnologias Utilizadas
 
