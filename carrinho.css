@@ -16,32 +16,36 @@ a {
     font-weight: bold;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 .logo {
-   margin: 0 15px; /* Espaço entre a logo e o h1 */
+    margin: 0 15px;
     font-size: 1.8rem;
     color: #333;
-    white-space: nowrap; /* Garante que o texto não quebre em linhas */
+    white-space: nowrap;
 }
 
-.logodoce{
-margin-left: 15px;
-justify-content: center; 
-max-width: 20px;
+.logodoce {
+    margin-left: 15px;
+    justify-content: center; 
+    max-width: 20px;
 }
 
-.logodoce img{
+.logodoce img {
     height: 200px;
     margin-top: 30px;
 }
 
 .navlinks {
-font-size: 20px;
-font-weight: bold;
-gap: 5px;
-align-items: center;
-justify-content: center;
-
+    font-size: 20px;
+    font-weight: bold;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
 }
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -52,9 +56,41 @@ justify-content: center;
     background: #f8b7d4;
     padding: 20px 0;
     border-bottom: 2px solid #e091ae;
-    display: flex; /* Ativa o layout flexbox */
-    align-items: center; /* Alinha verticalmente o conteúdo */
+    display: flex;
+    align-items: center;
     height: 250px;
+    position: relative;
+}
+
+/* Botão Voltar */
+.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #5c4d4d;
+    text-decoration: none;
+    border: 2px solid #e091ae;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.btn-voltar:hover {
+    background: #e091ae;
+    color: white;
+    transform: translateX(-5px);
+    box-shadow: 0 3px 8px rgba(224, 145, 174, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .btn-voltar {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
 }
 
 /* Codigos do Carrinho */
@@ -211,8 +247,8 @@ justify-content: center;
 .scroll-top {
     display: none;
     position: fixed;
-    bottom: 60px;
-    right: 55px;
+    bottom: 40px;
+    right: 25px;
     background-color: #e091ae;
     color: #fff;
     border: 1px solid #b66884;
@@ -394,4 +430,27 @@ footer .socials-wrapper h4 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .logo{
+        display: none;
+    }
+    .logodoce img {
+        height: 150px;
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .navlinks ul {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .carrinho-icon {
+        position: absolute;
+        top: 90px;
+        right: 80px;
+        font-size: 2rem;
+    }
 }

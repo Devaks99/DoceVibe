@@ -86,8 +86,8 @@ justify-content: center;
 .scroll-top {
     display: none;
     position: fixed;
-    bottom: 60px;
-    right: 55px;
+    bottom: 40px;
+    right: 25px;
     background-color: #e091ae;
     color: #fff;
     border: 1px solid #b66884;
@@ -139,7 +139,7 @@ justify-content: center;
 .hero {
     background: #ffe9f1;
     text-align: center;
-    padding: 20px 20px;
+    padding: 50px 20px;
 }
 
 .hero h2 {
@@ -380,4 +380,29 @@ footer .socials-wrapper h4 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo{
+        display: none;
+    }
+    .logodoce img {
+        height: 150px;
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .navlinks ul {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .carrinho-icon {
+        position: absolute;
+        top: 90px;
+        right: 80px;
+        font-size: 2rem;
+    }
+
 }
