@@ -28,7 +28,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 A estrutura do projeto está organizada da seguinte forma:
 
-DoceVibe/ │ ├── index.html # Página principal do site ├── style.css # Arquivo de estilos CSS ├── script.js # Arquivo de scripts JavaScript (se houver) │ ├── img/ # Imagens do projeto │ ├── logo_docevibe.ico │ ├── bolochocolate.jpg │ ├── bolo-de-chocolate-com-morangos.jpg │ ├── torta-de-limao.jpg │ └── ... │ └── README.md # Este arquivo
+DoceVibe/ │ ├── index.html # Página principal do site ├── style.css # Arquivo de estilos CSS ├── script.js # Arquivo de scripts JavaScript │  ├── carrinho.html # Página do carrinho ├── carrinho.css # CSS do carrinho ├── carrinho.js # scripts do carrinho │├── img/ # Imagens do projeto │ ├── logo_docevibe.ico │ ├── bolochocolate.jpg │ ├── bolo-de-chocolate-com-morangos.jpg │ ├── torta-de-limao.jpg │ └── ... │  ├── img/img-carrinho  ├── logo_docevibe.ico │ ├── bolochocolate.jpg │ ├── bolo-de-chocolate-com-morangos.jpg │ ├── torta-de-limao.jpg │ └── ... │└── README.md # Este arquivo
 
 
 ## Instalação
