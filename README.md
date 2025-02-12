@@ -4,7 +4,7 @@
 
 ---
 
-## 📸 Prints de Tela
+## 📸 Screenshots
 ![tela 1 docevibe](https://github.com/user-attachments/assets/4f64c8d1-a6b3-41f9-8c4f-4d128088cdfc)
 ![tela 2 docevibe](https://github.com/user-attachments/assets/6990a66e-6dc7-410e-b670-136403b0d5f1)
 ![tela 3 docevibee](https://github.com/user-attachments/assets/cae561b0-60dd-4a75-9497-2b1afbb2dd77)
